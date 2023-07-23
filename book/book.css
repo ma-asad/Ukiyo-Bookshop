@@ -74,9 +74,44 @@ header .container{
 }
 
 
-
-
 /*books content*/
+
+  /* View All button */
+
+/* Style for the "View All" button */
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-all-button {
+  text-align: center;
+}
+
+.view-all-link {
+  padding: 10px 20px;
+  background-color: #413624;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Align content vertically center */
+  margin-bottom: 1.5rem;
+}
+
+.view-all-link i {
+  margin-right: 5px;
+}
+
+.view-all-link:hover {
+  background-color: #554833;
+}
+
+  /* View All Ends Here */
 
 .container{
   max-width: 1068px;
@@ -98,6 +133,7 @@ section{
   font-weight: 500;
   text-align: center;
   margin-bottom: 1.5rem;
+  margin-right: 10px;
 }
 
 
