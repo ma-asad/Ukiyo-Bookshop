@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
@@ -7,9 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
-  
+
   h2, p {
     color: #494242;
     margin-top: 20px;
@@ -36,11 +41,119 @@ body {
     text-align: left;
   }
   
-  tr:nth-child(even) {
+  .table-row:nth-child(even) {
     background-color: #f2f2f2;
   }
   
-  tr:nth-child(odd) {
+  .table-row:nth-child(odd) {
     background-color: #ebd9d1;
   }
-  
+
+  /* Navigation Bar */
+  .header {
+    background-color: #b8978c;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+  }
+
+  .navbar {
+    max-width: 1100px;
+    min-width: 100%;
+    margin: 1em;
+  }
+  .navbar, .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+  }
+
+  .logo, .navlink, .button {
+    color: #333;
+  }
+
+  .logo {
+    margin-right: auto;
+    font-size: 25px;
+  }
+
+  .links {
+    column-gap: 25px;
+  }
+
+  .navlink:hover {
+    color: #ebe9df;
+  }
+
+  .header .button {
+    padding: 6px 24px;
+    margin-left: 20px;
+    border: 2px solid #333;
+    background: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .header .button:hover {
+    color: #ebe9df;
+  }
+
+
+
+/*footer*/
+.contact p a{
+  line-height: 0.5px;
+  color: #494242;
+}
+
+.contact a {
+  text-decoration: underline;
+}
+
+
+.socials {
+  gap: 30px;
+  font-size: 40px;
+  display: flex;
+  justify-content: right;
+}
+
+.socials a {
+  color: #98867d;
+}
+
+
+.socials a:hover {
+  color: #716868;
+}
+
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  font-family: sans-serif;
+  font-size: small;
+  letter-spacing: 3px;
+  padding: 45px;
+  color: #504f4f;
+  background-color: #d8d3d1;
+  width: 100%;
+}
+
+/* #footer {
+  position: relative;
+  font-family: sans-serif;
+  font-size:small;
+  letter-spacing: 3px;
+  padding: 45px;
+  color: #504f4f;
+  background-color: #d8d3d1;
+  top: 15em;
+  margin: auto;
+} */
+
+
