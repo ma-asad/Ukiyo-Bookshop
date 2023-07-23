@@ -110,8 +110,9 @@ body {
   color: #494242;
 }
 
-.contact a {
+.contact p {
   text-decoration: underline;
+  text-align: left;
 }
 
 
@@ -143,17 +144,5 @@ body {
   background-color: #d8d3d1;
   width: 100%;
 }
-
-/* #footer {
-  position: relative;
-  font-family: sans-serif;
-  font-size:small;
-  letter-spacing: 3px;
-  padding: 45px;
-  color: #504f4f;
-  background-color: #d8d3d1;
-  top: 15em;
-  margin: auto;
-} */
 
 
