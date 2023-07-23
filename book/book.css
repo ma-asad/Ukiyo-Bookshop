@@ -123,6 +123,13 @@ header .container{
   margin-top: 2rem;
 }
 
+h2.section-title {
+  border-bottom: 3px solid black;
+  padding-bottom: 13px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 section{
   padding: 4rem 0 3rem;
 }
@@ -135,8 +142,6 @@ section{
   margin-bottom: 1.5rem;
   margin-right: 10px;
 }
-
-
 
 .books-box{
   display: grid;
