@@ -30,10 +30,13 @@ a {
     padding: 0 20px;
   }
 
-  .navbar {
-    max-width: 1100px;
+  .navbar{
     min-width: 100%;
-    margin: 1em;
+    background-color: #b8978c;
+    position: relative;
+    height: 60px;
+    padding: 0 20px;
+    
   }
   .navbar, .links {
     display: flex;
@@ -44,8 +47,6 @@ a {
   .logo, .navlink, .button {
     color: #333;
   }
-
-
 
   .logo {
     margin-right: auto;
@@ -78,18 +79,21 @@ a {
   transform: scale(0.98);
 }
 
-.content {
-  margin: auto;
-  padding: 150px;
-  font-size: medium;
-  text-align: center;
-}
 
 .content h2, p{
   color: #494242;
   margin-top: 40px;
+  
 }
 
+/*About*/
+
+.about {
+  text-align: center;
+  margin: auto;
+}
+
+/*footer*/
 .contact p a{
   line-height: 0.5px;
   color: #494242;
@@ -116,6 +120,8 @@ a {
   color: #716868;
 }
 
+
+
 #footer {
   position: relative;
   font-family: sans-serif;
@@ -127,6 +133,7 @@ a {
   top: 15em;
   margin: auto;
 }
+
 
 
 /*login*/
@@ -244,52 +251,51 @@ a {
   margin-top: 15px;
 }
 
-/* log in ends here */
+/* Table */
 
+    /* Style the table container */
+    .opening-time {
+      width: 40%;
+      margin: 2em auto; 
+    }
 
-#bookstore-table {
-  width: 80%; /* Adjust the width of the table as per your preference */
-  margin: 2em auto; /* Center the table on the page with some top margin */
-  border-collapse: collapse;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow for an outline effect */
-}
+    /* Style the table */
+    .bookstore-table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 16px;
 
-#bookstore-table {
-  /* (existing styles) */
-  border-radius: 5px;
-  overflow: hidden;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9); /* Add a box shadow for an outline effect */
-  width: 50%;
-  
-}
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(67, 67, 67, 0.9); /* Add a box shadow for an outline effect */
+    }
 
-#bookstore-table th,
-#bookstore-table td {
-  padding: 10px; /* Increase the padding for better spacing */
-  text-align: left;
-  border: 1px solid #c0aa94;
-  height: 50px
-  
-}
+    /* Style table cells (td) */
+    .bookstore-table td {
+      padding: 10px; 
+      text-align: left;
+      border: 1px solid #a9998a;
+      height: 50px;
+    }
 
-/* Style the table header */
-#bookstore-table th {
-  background-color: #363434;
-  color: white;
-}
+    /* Style the table header (th) */
+    .bookstore-table th {
+      background-color: #60564c;
+      border: 1px solid #a9998a;
+      color: white;
+      height: 50px;
+    }
 
-/* Style all rows with the same background color */
-#bookstore-table tr {
-  background-color: #cdcdb9;
-}
+    /* Style all rows (tr) with the same background color */
+    .bookstore-table tr {
+      background-color: #cdcdb9;
+    }
 
-/* Style the holiday row */
-#bookstore-table tr.holiday-row td {
-  background-color: #c0aa94;
-  text-align: center;
-}
+    /* Style the holiday row */
+    .bookstore-table tr.holiday-row td {
+      background-color: #c0aa94;
+      text-align: center;
+    }
+
 
 /* CSS for Accordion */
 .accordion {
@@ -354,3 +360,75 @@ a {
 
 
 
+/* CSS Styles for the carousel and testimonials */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.testimonial-carousel {
+  text-align: center;
+  max-width: 800px; /* Increased the max-width of the carousel */
+  margin: 100px auto;
+}
+
+.testimonial {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top:60px;
+  margin-bottom: 20px;
+  width: 300px; /* Fixed width for each carousel item */
+  height: 250px; /* Fixed height for each carousel item */
+  margin-right: 20px; /* Added margin between carousel items */
+}
+
+.testimonial p {
+  font-style: italic;
+  font-size: 18px; /* Increased the font size for larger text */
+  color: #333333;
+  margin: 0;
+}
+
+.customer-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Styles for the carousel container */
+.carousel {
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.3s ease;
+  width: fit-content; /* Making the carousel container shrink to the width of its contents */
+  margin: 0 auto; /* Centering the carousel container */
+}
+
+/* Navigation arrows */
+.arrow {
+  position: absolute;
+  top: 60%;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 5px;
+  background-color: #494242;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: #494242;
+}
+
+.prev {
+  left: 300px;
+}
+
+.next {
+  right: 300px;
+}

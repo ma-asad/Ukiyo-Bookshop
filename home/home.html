@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- ... -->
-    <title>bookshop</title>
-    <link rel="stylesheet" href="../home/home.css" />
-    <!-- icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://kit.fontawesome.com/659625d5a6.js" crossorigin="anonymous"></script>
-    <!-- ... -->
-
-    <title>bookshop</title>
+        
+    <title>Ukiyo</title>
+    <style>
+      /* Style only the paragraphs with the "my-paragraph" class */
+      .my-paragraph {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        color: #494242;
+        margin-top: 30px;
+        text-align: center;
+      }
+      /* Add your other styles here */
+    </style>
     <link rel="stylesheet" href="../home/home.css" />
     <!-- icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,14 +32,13 @@
             <li class="links">
               <a href="../home/home.html" class="navlink">Home</a>
               <a href="../book/book.html" class="navlink">Books</a>
-              <a href="faq.html"  class="navlink">FAQs</a>
+              <a href="../faq.html" class="navlink">FAQs</a>
               <button class="button" id="open-form">Login</button>
             </li>
           </ul>
         </nav>
 
       </header>
-      
   <!-- Home -->
 <div class="home">  
   <section>
@@ -88,69 +91,93 @@
 
 <!--content-->
 
-
 <section class="content">
   <div class="about">
     <h2>ABOUT US</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-       incididunt ut labore<br> et dolore magna aliqua. 
-       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+    <p>
+      Welcome to Ukiyo, your literary haven! At Ukiyo, we are passionate about books and believe in the magic of storytelling.<br> 
+      Our bookstore offers a curated collection of books from various genres, catering to readers of all ages.<br>
+      Whether you're seeking thrilling adventures, heartwarming romances, or thought-provoking classics, we have something 
+      for everyone.<br>
+      Our friendly and knowledgeable staff is always ready to assist you in finding your next captivating read. 
+    </p>
   </div>
-  
-  
-<!--Table-->
-    <div>
-      <table id="bookstore-table" style="margin-top: 4em;">
+
+      <!--Table-->
+      <div class="opening-time">
+        <table class="bookstore-table">
           <tr>
-              <th>Day</th>
-              <th>Opening Time</th>
-              <th>Closing Time</th>
+            <th>Day</th>
+            <th>Opening Time</th>
+            <th>Closing Time</th>
           </tr>
           <tr>
-              <td>Weekdays (Mon-Fri)</td>
-              <td style="background-color: #cdcdb9;">9:00 AM</td>
-              <td style="background-color: #cdcdb9;">6:00 PM</td>
+            <td>Weekdays (Mon-Fri)</td>
+            <td>9:00 AM</td>
+            <td>6:00 PM</td>
           </tr>
           <tr>
-              <td>Weekend (Sat-Sun)</td>
-              <td style="background-color: #cdcdb9;">10:00 AM</td>
-              <td style="background-color: #cdcdb9;">4:00 PM</td>
+            <td>Weekend (Sat-Sun)</td>
+            <td>10:00 AM</td>
+            <td>4:00 PM</td>
           </tr>
           <tr class="holiday-row">
-              <td>Holiday</td>
-              <td colspan="2" style="background-color: #c0aa94; text-align: center;" >Closed</td>
+            <td>Holiday</td>
+            <td colspan="2">Closed</td>
           </tr>
-      </table>
-    </div>
-
-<!--Table style-->
-<style>
-  #bookstore-table {
-      min-width: 480px;
-      height: 40px;
-      border-collapse: collapse;
-      background-color: #fbf3e6;
-      margin: auto;
-  }
+        </table>
+      </div>
 
 
-  #bookstore-table th,
-  #bookstore-table td {
-      padding: 6px;
-      text-align: left;
-      border: 1px solid #c0aa94;
-  }
-</style>
+    <section class="testimonial-carousel">
+      <h2>Customer Reviews</h2>
+      <div class="carousel">
+          <div class="carousel-inner">
+              <div class="testimonial">
+                  <p>"I absolutely love this bookstore! The staff is friendly, and the selection of books is fantastic. I always find something new to read every time I visit."</p>
+                  <p class="customer-name">- Jane Doe</p>
+              </div>
 
+              <div class="testimonial">
+                  <p>"Such a charming bookstore with a cozy atmosphere. It's my go-to place to find hidden gems and spend hours lost in the world of books."</p>
+                  <p class="customer-name">- John Smith</p>
+              </div>
+              
+              <div class="testimonial">
+                  <p>"I discovered this amazing bookstore last week, and I'm already a fan! The ambiance is delightful, and the collection of books is diverse. I'll be visiting again soon!"</p>
+                  <p class="customer-name">- Mary Johnson</p>
+              </div>
 
+              <div class="testimonial">
+                  <p>"This bookstore is a treasure trove for book lovers! I'm impressed by their selection of classic literature. Can't wait to explore more!"</p>
+                  <p class="customer-name">- Robert Williams</p>
+              </div>
+              
+              <div class="testimonial">
+                  <p>"Such a charming bookstore with a cozy atmosphere. It's my go-to place to find hidden gems and spend hours lost in the world of books."</p>
+                  <p class="customer-name">- John Smith</p>
+              </div>
+              
+              <div class="testimonial">
+                  <p>"I discovered this amazing bookstore last week, and I'm already a fan! The ambiance is delightful, and the collection of books is diverse. I'll be visiting again soon!"</p>
+                  <p class="customer-name">- Mary Johnson</p>
+              </div>
 
-
+              <div class="testimonial">
+                  <p>"This bookstore is a treasure trove for book lovers! I'm impressed by their selection of classic literature. Can't wait to explore more!"</p>
+                  <p class="customer-name">- Robert Williams</p>
+              </div>
+          </div>
+          <button class="arrow prev" onclick="moveCarousel('prev')">&#10094;</button>
+          <button class="arrow next" onclick="moveCarousel('next')">&#10095;</button>
+      </div>
+  
 </section>
 
 <footer id="footer">
   <h4 class="contact">
-  <p>Contact: <i class="fa-solid fa-phone"></i><a href="#"> +230-12345678</a></p>
-  <p>Address:<a href="#"> lorem ipsum dolor sit amet</a></p>
+  <p>Contact: <i class="fa-solid fa-phone"></i><a href="#"> +321-12345678</a></p>
+  <p>Address:<a href="#"> somewhere in Japan</a></p>
   </h4>
   
   <div class="socials">
@@ -161,11 +188,31 @@
   </div>
 
   <h5 style="text-align: center; font-weight: 100;"><i class="fa-regular fa-copyright"></i>2023 Copyright: Ukiyo&co</h5>
+  
 </footer>
 
    
 </div>
 
-<script src="login.js"></script>
+<script src="../login.js"></script>
+<script>
+  // JavaScript for testimonial carousel
+  let currentSlide = 0;
+
+  function moveCarousel(direction) {
+      const carouselInner = document.querySelector('.carousel-inner');
+      const testimonials = document.querySelectorAll('.testimonial');
+      const slideWidth = testimonials[0].offsetWidth;
+      const maxSlides = testimonials.length;
+
+      if (direction === 'prev') {
+          currentSlide = (currentSlide - 1 + maxSlides) % maxSlides;
+      } else {
+          currentSlide = (currentSlide + 1) % maxSlides;
+      }
+
+      carouselInner.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+  }
+</script>
   </body>
 </html>
