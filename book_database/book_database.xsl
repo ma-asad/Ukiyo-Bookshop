@@ -13,7 +13,7 @@
         <header class="header">
           <!-- Navigation bar -->
           <nav class="navbar">
-            <div class="logo">U K I Y O</div>
+            <div class="logo"><a href="../home/home.html">U K I Y O</a></div>
             <ul>
               <li class="links">
                 <a href="../home/home.html" class="navlink">Home</a>

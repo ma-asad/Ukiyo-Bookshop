@@ -48,9 +48,10 @@ a {
     color: #333;
   }
 
-  .logo {
+  .logo a{
     margin-right: auto;
     font-size: 25px;
+    color: #333;
   }
 
   .links {
@@ -80,17 +81,17 @@ a {
 }
 
 
-.content h2, p{
-  color: #494242;
-  margin-top: 40px;
-  
-}
-
 /*About*/
 
 .about {
   text-align: center;
   margin: auto;
+}
+
+.content h2, p{
+  color: #494242;
+  margin-top: 40px;
+  
 }
 
 /*footer*/

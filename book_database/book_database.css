@@ -52,33 +52,35 @@ body {
   /* Navigation Bar */
   .header {
     background-color: #b8978c;
-    position: sticky;
-    top: 0;
+    position: relative;
     height: 60px;
     width: 100%;
     z-index: 100;
     padding: 0 20px;
   }
 
-  .navbar {
-    max-width: 1100px;
+  .navbar{
     min-width: 100%;
-    margin: 1em;
+    background-color: #b8978c;
+    position: relative;
+    height: 60px;
+    padding: 0 20px;
+    
   }
   .navbar, .links {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 5px;
   }
 
   .logo, .navlink, .button {
     color: #333;
   }
 
-  .logo {
+  .logo a{
     margin-right: auto;
     font-size: 25px;
+    color: #333;
   }
 
   .links {
@@ -102,6 +104,10 @@ body {
     color: #ebe9df;
   }
 
+
+.button:active {
+  transform: scale(0.98);
+}
 
 
 /*footer*/

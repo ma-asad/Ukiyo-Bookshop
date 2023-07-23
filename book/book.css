@@ -47,9 +47,10 @@ header .container{
   padding: 20px 0;
 }
 
-.logo {
+.logo a{
   margin-right: auto;
   font-size: 25px;
+  color: #333;
 }
 
 .links {
@@ -81,6 +82,8 @@ header .container{
 /* Style for the "View All" button */
 
 .section-header {
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,11 +95,11 @@ header .container{
 
 .view-all-link {
   padding: 10px 20px;
-  background-color: #413624;
+  background-color: #5c492d;
   color: #fff;
   text-decoration: none;
   border-radius: 20px;
-  font-weight: bold;
+  font-weight: 450;
   cursor: pointer;
   display: flex;
   align-items: center; /* Align content vertically center */
@@ -108,7 +111,7 @@ header .container{
 }
 
 .view-all-link:hover {
-  background-color: #554833;
+  background-color: #927850;
 }
 
   /* View All Ends Here */
@@ -123,21 +126,14 @@ header .container{
   margin-top: 2rem;
 }
 
-h2.section-title {
-  border-bottom: 3px solid black;
-  padding-bottom: 13px;
-  font-size: 40px;
-  font-weight: bold;
-}
-
 section{
   padding: 4rem 0 3rem;
 }
 
-.section-title{
+.section-title {
   color: #494242;
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 2.5rem;
+  font-weight: 600;
   text-align: center;
   margin-bottom: 1.5rem;
   margin-right: 10px;
@@ -146,7 +142,8 @@ section{
 .books-box{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(220px, auto));
-  gap: 4rem; 
+  gap: 4rem;
+  padding-top: 20px;
 }
 
 .shop-content{
