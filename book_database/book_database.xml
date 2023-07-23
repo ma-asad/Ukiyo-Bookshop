@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../book_database/book_database.xsl"?>
+<!DOCTYPE books [
+  <!ELEMENT books (book+)>
+  <!ELEMENT book (title, author, year, ibsn, price, stock, sold)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT author (#PCDATA)>
+  <!ELEMENT year (#PCDATA)>
+  <!ELEMENT ibsn (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT stock (#PCDATA)>
+  <!ELEMENT sold (#PCDATA)>
+]>
+<books>
+  <book>
+    <title>Book 1</title>
+    <author>Author 1</author>
+    <year>2023</year>
+    <ibsn>123456789</ibsn>
+    <price>66</price>
+    <stock>In Stock</stock>
+    <sold>20</sold>
+  </book>
+  <book>
+    <title>Book 2</title>
+    <author>Author 2</author>
+    <year>2022</year>
+    <ibsn>234567890</ibsn>
+    <price>43</price>
+    <stock>In Stock</stock>
+    <sold>30</sold>
+  </book>
+  <book>
+    <title>Book 3</title>
+    <author>Author 3</author>
+    <year>2021</year>
+    <ibsn>345678901</ibsn>
+    <price>53</price>
+    <stock>In Stock</stock>
+    <sold>40</sold>
+  </book>
+  <!-- More book elements... -->
+  <book>
+    <title>Book 15</title>
+    <author>Author 15</author>
+    <year>2009</year>
+    <ibsn>999999999</ibsn>
+    <price>15</price>
+    <stock>Out of Stock</stock>
+    <sold>150</sold>
+  </book>
+</books>

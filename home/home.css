@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: #ebe9df;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.header {
+    background-color: #b8978c;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+  }
+
+  .navbar {
+    max-width: 1100px;
+    min-width: 100%;
+    margin: 1em;
+  }
+  .navbar, .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo, .navlink, .button {
+    color: #333;
+  }
+
+
+
+  .logo {
+    margin-right: auto;
+    font-size: 25px;
+  }
+
+  .links {
+    column-gap: 25px;
+  }
+
+  .navlink:hover {
+    color: #ebe9df;
+  }
+
+  .header .button {
+    padding: 6px 24px;
+    margin-left: 20px;
+    border: 2px solid #333;
+    background: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .header .button:hover {
+    color: #ebe9df;
+  }
+
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.content {
+  margin: auto;
+  padding: 150px;
+  font-size: medium;
+  text-align: center;
+}
+
+.content h2, p{
+  color: #494242;
+  margin-top: 40px;
+}
+
+.contact p a{
+  line-height: 0.5px;
+  color: #494242;
+}
+
+.contact a {
+  text-decoration: underline;
+}
+
+
+.socials {
+  gap: 30px;
+  font-size: 40px;
+  display: flex;
+  justify-content: right;
+}
+
+.socials a {
+  color: #98867d;
+}
+
+
+.socials a:hover {
+  color: #716868;
+}
+
+#footer {
+  position: relative;
+  font-family: sans-serif;
+  font-size:small;
+  letter-spacing: 3px;
+  padding: 45px;
+  color: #504f4f;
+  background-color: #d8d3d1;
+  top: 15em;
+  margin: auto;
+}
+
+
+/*login*/
+
+.container{
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 340px;
+  width: 100%;
+  top: 20%;
+  left: 36%;
+  position: absolute;
+  z-index: 101;
+  background-color: #dbdbd5;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  color: #333;
+  opacity: 0 ;
+  pointer-events: none;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-out;
+}
+
+.container.active .signup {
+  display: block;
+}
+.container.active .login {
+  display: none;
+}
+
+
+
+.home.show .container{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background:rgba(123, 119, 119, 0.6);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease-out;
+}
+
+.home.show::before {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.signup{
+  display: none;
+}
+
+.close-form{
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #232121;
+  font-size: 22px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.container h2{
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.input-box{
+  background-color: #cdcdb9;
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+}
+
+.input-box input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.2 ease;
+}
+
+.container a{
+  color: #b08989;
+  font-size: 11px;
+}
+
+.container a:hover{
+  text-decoration: underline;
+}
+
+.container .button {
+  background:#b8978c;
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.login-signup {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* log in ends here */
+
+
+#bookstore-table {
+  width: 80%; /* Adjust the width of the table as per your preference */
+  margin: 2em auto; /* Center the table on the page with some top margin */
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow for an outline effect */
+}
+
+#bookstore-table {
+  /* (existing styles) */
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9); /* Add a box shadow for an outline effect */
+  width: 50%;
+  
+}
+
+#bookstore-table th,
+#bookstore-table td {
+  padding: 10px; /* Increase the padding for better spacing */
+  text-align: left;
+  border: 1px solid #c0aa94;
+  height: 50px
+  
+}
+
+/* Style the table header */
+#bookstore-table th {
+  background-color: #363434;
+  color: white;
+}
+
+/* Style all rows with the same background color */
+#bookstore-table tr {
+  background-color: #cdcdb9;
+}
+
+/* Style the holiday row */
+#bookstore-table tr.holiday-row td {
+  background-color: #c0aa94;
+  text-align: center;
+}
+
+/* CSS for Accordion */
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.accordion .question:last-child {
+  border-bottom: none;
+}
+
+.accordion .question p {
+  margin: 0;
+  font-size: 16px;
+  display: none;
+  padding: 10px 0;
+}
+
+.accordion .question.active {
+  background-color: #cebebe67;
+}
+
+.accordion .question:hover {
+  background-color: #f1f1f1;
+}
+
+
+.accordion .question {
+  background-color: #b69e96;
+  border-bottom: 15px solid #ccc;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.accordion .question h3 {
+    margin: 0;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* CSS to show the list when the question is active */
+.accordion .question.active .answer {
+    display: block;
+}
+
+.accordion .question .answer {
+    display: none;
+    margin: 0; /* Remove default margin to avoid extra space */
+
+}
+
+/* Decrease the space between the bullet point and the text */
+.accordion .question .answer li {
+  list-style: inside; 
+  padding-left: 10px; /* Adjust this value as needed */
+  margin-bottom: 20px;
+}
+
+
+
