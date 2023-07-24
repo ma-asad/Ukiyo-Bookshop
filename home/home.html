@@ -15,8 +15,8 @@
         margin-top: 30px;
         text-align: center;
       }
-      /* Add your other styles here */
     </style>
+    <!-- External CSS Stylesheets -->
     <link rel="stylesheet" href="../home/home.css" />
     <!-- icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -220,18 +220,25 @@
   // JavaScript for testimonial carousel
   let currentSlide = 0;
 
+  // Function to move the testimonial carousel
   function moveCarousel(direction) {
       const carouselInner = document.querySelector('.carousel-inner');
       const testimonials = document.querySelectorAll('.testimonial');
+
+      // Calculate the slide width based on the width of the first testimonial
       const slideWidth = testimonials[0].offsetWidth;
+
+       // Get the total number of testimonials
       const maxSlides = testimonials.length;
 
+      // Determine the next slide index based on the direction ('prev' or 'next')
       if (direction === 'prev') {
           currentSlide = (currentSlide - 1 + maxSlides) % maxSlides;
       } else {
           currentSlide = (currentSlide + 1) % maxSlides;
       }
 
+      // Move the carousel by translating the carousel inner container horizontally
       carouselInner.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
   }
 </script>

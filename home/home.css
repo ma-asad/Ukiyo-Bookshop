@@ -5,7 +5,7 @@
 }
 
 
-
+/* Global styles for the body */
 body{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 
-
+/* Styles for the header section */
 .header {
     background-color: #b8978c;
     position: relative;
@@ -62,6 +62,7 @@ a {
     color: #ebe9df;
   }
 
+/* Style for the login button in the header */
   .header .button {
     padding: 6px 24px;
     margin-left: 20px;
@@ -181,12 +182,13 @@ a {
 }
 
 
-
+/* Set the opacity of the login/signup container to 1 when it is shown */
 .home.show .container{
   opacity: 1;
   pointer-events: auto;
 }
 
+/* Background overlay for the login/signup container */
 .home::before {
   content: "";
   position: absolute;
@@ -199,6 +201,7 @@ a {
   transition: all 0.5s ease-out;
 }
 
+/* Show the background overlay when the login/signup container is shown */
 .home.show::before {
   opacity: 1;
   pointer-events: auto;
@@ -226,6 +229,7 @@ a {
   text-align: center;
 }
 
+/* Styles for the input boxes in the login/signup form */
 .input-box{
   background-color: #cdcdb9;
   position: relative;
@@ -252,6 +256,7 @@ a {
   text-decoration: underline;
 }
 
+/* Styles for the login/signup buttons */
 .container .button {
   background:#b8978c;
   margin-top: 30px;
@@ -356,7 +361,7 @@ a {
     margin-bottom: 15px;
 }
 
-/* CSS to show the list when the question is active */
+/* Show the list when the question is active */
 .accordion .question.active .answer {
     display: block;
 }
@@ -367,8 +372,9 @@ a {
 
 }
 
-/* Decrease the space between the bullet point and the text */
+
 .accordion .question .answer li {
+/* Decrease the space between the bullet point and the text */
   list-style: inside; 
   padding-left: 10px; /* Adjust this value as needed */
   margin-bottom: 20px;
@@ -396,7 +402,7 @@ body {
   margin-bottom: 20px;
   width: 300px; /* Fixed width for each carousel item */
   height: 250px; /* Fixed height for each carousel item */
-  margin-right: 20px; /* Added margin between carousel items */
+  margin-right: 20px; 
 }
 
 .testimonial p {
@@ -406,7 +412,7 @@ body {
   margin: 0;
 }
 
-/* CSS for the list items inside the testimonial section */
+/* List items inside the testimonial section */
 .testimonial ul {
   list-style: inside;
   font-style: italic;

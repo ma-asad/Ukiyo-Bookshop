@@ -23,15 +23,6 @@ header .container{
   min-width: 100%;
 }
 
-/* .header {
-  background-color: #b8978c;
-  position: relative;
-  height: 60px;
-  width: 100%;
-  z-index: 100;
-  padding: 0 20px;
-} */
-
 .navbar{
   min-width: 100%;
   background-color: #b8978c;
