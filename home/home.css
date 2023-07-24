@@ -318,6 +318,12 @@ a {
     }
 
 
+/* Table Ends*/
+
+/* FAQs */
+
+.faq
+
 /* CSS for Accordion */
 .accordion {
   border: 1px solid #ccc;
@@ -392,6 +398,7 @@ body {
   text-align: center;
   max-width: 800px; /* Increased the max-width of the carousel */
   margin: 100px auto;
+  color:#333;
 }
 
 .testimonial {
