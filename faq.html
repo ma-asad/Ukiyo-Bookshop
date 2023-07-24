@@ -135,9 +135,16 @@
         const questions = document.querySelectorAll('.question');
 
         questions.forEach(question => {
+            // Add a click event listener to each "question" element
             question.addEventListener('click', () => {
+                // Toggle the "active" class on the clicked question element
                 question.classList.toggle('active');
+                 // Select the paragraph element within the clicked question element (represents the content to be shown/hidden)
                 const answer = question.querySelector('p');
+                // If the question element has the "active" class (accordion section is expanded),
+                // set the display property of the content paragraph to 'block' (show the content)
+                // Otherwise, if the "active" class is not present (accordion section is collapsed),
+                // set the display property of the content paragraph to 'none' (hide the content)
                 answer.style.display = question.classList.contains('active') ? 'block' : 'none';
             });
         });
