@@ -321,71 +321,75 @@ a {
 /* Table Ends*/
 
 /* FAQs */
+.faqs {
+max-width: 800px;
+margin: auto; /* Add this to center the .faqs div */
+padding: 20px;
+text-align: left;
+box-shadow: rgba(0, 0, 0, 0.1);
+}
 
-.faq
+h2 {
+text-align: center;
+}
 
 /* CSS for Accordion */
 .accordion {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  margin-top: 40px;
+border: 1px solid #ccc;
+border-radius: 5px;
+overflow: hidden;
+margin-top: 40px;
 }
 
 .accordion .question:last-child {
-  border-bottom: none;
+border-bottom: none;
 }
 
 .accordion .question p {
-  margin: 0;
-  font-size: 16px;
-  display: none;
-  padding: 10px 0;
+margin: 0;
+font-size: 16px;
+display: none;
+padding: 10px 0;
 }
 
 .accordion .question.active {
-  background-color: #cebebe67;
+background-color: #cebebe67;
 }
 
 .accordion .question:hover {
-  background-color: #f1f1f1;
+background-color: #f1f1f1;
 }
-
 
 .accordion .question {
-  background-color: #b69e96;
-  border-bottom: 15px solid #ccc;
-  padding: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+background-color: #b69e96;
+border-bottom: 15px solid #ccc;
+padding: 20px;
+cursor: pointer;
+transition: background-color 0.3s ease;
 }
 
-
 .accordion .question h3 {
-    margin: 0;
-    cursor: pointer;
-    margin-bottom: 15px;
+  margin: 0;
+  cursor: pointer;
+  margin-bottom: 15px;
 }
 
 /* Show the list when the question is active */
 .accordion .question.active .answer {
-    display: block;
+  display: block;
 }
 
 .accordion .question .answer {
-    display: none;
-    margin: 0; /* Remove default margin to avoid extra space */
-
+  display: none;
+  margin: 0; /* Remove default margin to avoid extra space */
 }
-
 
 .accordion .question .answer li {
 /* Decrease the space between the bullet point and the text */
-  list-style: inside; 
-  padding-left: 10px; /* Adjust this value as needed */
-  margin-bottom: 20px;
+list-style: inside; 
+padding-left: 10px; /* Adjust this value as needed */
+margin-bottom: 20px;
 }
-
 
 
 /* CSS Styles for the carousel and testimonials */
