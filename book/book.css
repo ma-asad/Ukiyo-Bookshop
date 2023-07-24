@@ -23,15 +23,6 @@ header .container{
   min-width: 100%;
 }
 
-/* .header {
-  background-color: #b8978c;
-  position: relative;
-  height: 60px;
-  width: 100%;
-  z-index: 100;
-  padding: 0 20px;
-} */
-
 .navbar{
   min-width: 100%;
   background-color: #b8978c;
@@ -199,19 +190,11 @@ transform: scale(0.98);
 }
 
 
-/* #login {
-  padding: 6px 24px;
-  margin-left: 20px;
-  border: 2px solid #333;
-  background: transparent;
-  border-radius: 20px;
-  cursor: pointer;
-}
+/*books content*/
 
-#login:hover {
-  color: #ebe9df;
-} */
+  /* View All button */
 
+/* Style for the "View All" button */
 
 .section-header {
   border-bottom: 3px solid black;

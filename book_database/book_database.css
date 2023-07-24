@@ -43,11 +43,11 @@ body {
   }
   
   .table-row:nth-child(even) {
-    background-color: #e1d7cc;
+    background-color: #ded6ce;
   }
   
   .table-row:nth-child(odd) {
-    background-color: #ceb9a4;
+    background-color: #d3c2b1;
   }
 
   /* Navigation Bar */

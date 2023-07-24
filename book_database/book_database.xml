@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../book_database/book_database.xsl"?>
-<!DOCTYPE books [
-  <!ELEMENT books (book+)>
-  <!ELEMENT book (title, author, year, ibsn, price, stock, sold)>
-  <!ELEMENT title (#PCDATA)>
-  <!ELEMENT author (#PCDATA)>
-  <!ELEMENT year (#PCDATA)>
-  <!ELEMENT ibsn (#PCDATA)>
-  <!ELEMENT price (#PCDATA)>
-  <!ELEMENT stock (#PCDATA)>
-  <!ELEMENT sold (#PCDATA)>
-]>
-<books>
-  <book>
+<!DOCTYPE books SYSTEM "book_database.dtd">
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../book_database/book_database.dtd">
+  <book id="1" genre="Fantasy">
     <title>Book 1</title>
     <author>Author 1</author>
     <year>2023</year>
@@ -20,8 +11,9 @@
     <price>66</price>
     <stock>In Stock</stock>
     <sold>20</sold>
+    <notes>A delightful fantasy book.</notes>
   </book>
-  <book>
+  <book id="2" genre="Sci-Fi">
     <title>Book 2</title>
     <author>Author 2</author>
     <year>2022</year>
@@ -29,8 +21,9 @@
     <price>43</price>
     <stock>In Stock</stock>
     <sold>30</sold>
+    <notes>An epic sci-fi adventure.</notes>
   </book>
-  <book>
+  <book id="3" genre="Mystery">
     <title>Book 3</title>
     <author>Author 3</author>
     <year>2021</year>
@@ -38,9 +31,10 @@
     <price>53</price>
     <stock>In Stock</stock>
     <sold>40</sold>
+    <notes>A thrilling mystery novel.</notes>
   </book>
   <!-- More book elements... -->
-  <book>
+  <book id="15" genre="History">
     <title>Book 15</title>
     <author>Author 15</author>
     <year>2009</year>
@@ -48,5 +42,6 @@
     <price>15</price>
     <stock>Out of Stock</stock>
     <sold>150</sold>
+    <notes>A comprehensive history book.</notes>
   </book>
 </books>

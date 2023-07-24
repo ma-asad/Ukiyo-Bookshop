@@ -1,0 +1,12 @@
+<!ELEMENT books (book+)>
+<!ELEMENT book (title, author, year, ibsn, price, stock, sold, notes?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT ibsn (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT sold (#PCDATA)>
+<!ELEMENT notes EMPTY>
+<!ATTLIST book id ID #REQUIRED>
+<!ATTLIST book lang NMTOKEN "en">
