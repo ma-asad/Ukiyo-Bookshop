@@ -5,15 +5,15 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    min-height: 100vh;
-    min-width: 95%;
-    background-color: #ebe9df;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  min-width: 95%;
+  background-color: #ebe9df;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
   h2, p {
     color: #494242;
@@ -26,7 +26,6 @@ body {
     margin-top: 20px;
     border-collapse: collapse;
     border-radius: 16px;
-    margin-bottom: 50px;
     color:#333;
     overflow: hidden;
     box-shadow: 0 0 10px rgb(130, 127, 127); /* Add a box shadow for an outline effect*/
@@ -51,49 +50,53 @@ body {
     background-color: #d3c2b1;
   }
 
-  /* Navigation Bar */
-  .header {
-    background-color: #b8978c;
-    position: relative;
-    height: 60px;
-    width: 100%;
-    z-index: 100;
-    padding: 0 20px;
-  }
+/* Navigation Bar */
+.header {
+  background-color: #b8978c;
+  position: relative;
+  height: 60px;
+  width: 100%;
+  z-index: 100;
+  padding: 0 20px;
+}
 
-  .navbar{
-    min-width: 100%;
-    background-color: #b8978c;
-    position: relative;
-    height: 60px;
-    padding: 0 20px;
-    
-  }
-  .navbar, .links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.navbar {
+  min-width: 100%;
+  background-color: #b8978c;
+  position: relative;
+  height: 60px;
+  padding: 0 20px;
 
-  .logo, .navlink, .button {
-    color: #333;
-  }
+}
 
-  .logo a{
-    margin-right: auto;
-    font-size: 25px;
-    color: #333;
-    text-decoration: none;
-  }
+.navbar,
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .links {
-    column-gap: 25px;
-  }
+.logo,
+.navlink,
+.button {
+  color: #333;
+}
+
+.logo a {
+  margin-right: auto;
+  font-size: 25px;
+  color: #333;
+  text-decoration: none;
+}
+
+.links {
+  column-gap: 25px;
+}
 
 /* Navigation Bar */
 .navlink {
   color: #333;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .navlink:hover {
@@ -101,18 +104,18 @@ body {
 }
 
 
-  .header .button {
-    padding: 6px 24px;
-    margin-left: 20px;
-    border: 2px solid #333;
-    background: transparent;
-    border-radius: 20px;
-    cursor: pointer;
-  }
+.header .button {
+  padding: 6px 24px;
+  margin-left: 20px;
+  border: 2px solid #333;
+  background: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
 
-  .header .button:hover {
-    color: #ebe9df;
-  }
+.header .button:hover {
+  color: #ebe9df;
+}
 
 
 .button:active {
@@ -121,7 +124,7 @@ body {
 
 
 /*footer*/
-.contact p a{
+.contact p a {
   line-height: 0.5px;
   color: #494242;
 }

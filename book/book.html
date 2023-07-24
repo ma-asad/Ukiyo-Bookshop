@@ -1,268 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>books</title>
   <link rel="stylesheet" href="../book/book.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://kit.fontawesome.com/659625d5a6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/659625d5a6.js" crossorigin="anonymous"></script>
 </head>
-<body> 
+
+<body>
 
 
-   <!-- Header -->
-   <header class="header">
-       <nav class="navbar">
-         <div class="logo"><a href="../home/home.html">U K I Y O</a></div>
- 
-         <ul>
-           <li class="links">
-               <a href="../home/home.html" class="navlink">Home</a>
-               <a href="../faq.html" class="navlink">FAQs</a>
-               <a href="#" id="cart-logo" class="navlink">Cart</a>
-               <a href="../announcement/announcement.html" class="navlink"><i class="fa-regular fa-bell fa-lg"></i></a>
-             <button class="button" id="open-form">Login</button>
-           </li>
-         </ul>
-       </nav>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo"><a href="../home/home.html">U K I Y O</a></div>
 
-     </header>
+      <ul>
+        <li class="links">
+          <a href="../home/home.html" class="navlink">Home</a>
+          <a href="../faq.html" class="navlink">FAQs</a>
+          <a href="#" id="cart-logo" class="navlink">Cart</a>
+          <a href="../announcement/announcement.html" class="navlink"><i class="fa-regular fa-bell fa-lg"></i></a>
+          <button class="button" id="open-form">Login</button>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
 
 
-   <!-- Home -->
-   <div class="home">  
-   <section>
+  <!-- Home -->
+  <div class="home">
+    <section>
       <div class="container">
-      <i class="fa-solid fa-xmark close-form"></i>
+        <i class="fa-solid fa-xmark close-form"></i>
 
-     <!-- Login -->
-     <div class="form login">
-       <form action="#">
-         <h2>Login</h2>
+        <!-- Login -->
+        <div class="form login">
+          <form action="#">
+            <h2>Login</h2>
 
-         <div class="input-box">
-           <input type="email" placeholder="Enter your email" required>
-         </div>
-         <div class="input-box">
-           <input type="password" placeholder="Enter your password" required>
-         </div>
+            <div class="input-box">
+              <input type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+              <input type="password" placeholder="Enter your password" required>
+            </div>
 
-         <button class="button" id="open-form">Login Now</button>
+            <button class="button" id="open-form">Login Now</button>
 
-         <div class="login-signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
-       </form>
-     </div>
-     
-
-     <!-- Signup -->
-     <div class="form signup">
-       <form action="#">
-         <h2>Signup</h2>
-
-         <div class="input-box">
-           <input type="email" placeholder="Enter your email" required>
-         </div>
-         <div class="input-box">
-           <input type="password" placeholder="Create password" required>
-         </div>
-         <div class="input-box">
-           <input type="password" placeholder="Confirm password" required>
-         </div>
-
-         <button class="button">Signup Now</button>
-
-         <div class="login-signup">Already have an account? <a href="#" id="login">Login</a></div>
-       </form>
-     </div>
-   </div>
- </section>  
-   </div>
-     
-
-     <!--cart-->
-       <div class="cart">
-          <h2 class="cart-title">Your Cart</h2>
-
-         <!--cart content-->
-         <div class="cart-box">
-         </div>
-
-        <!--total amount-->
-        <div class="total">
-           <div class="total-title">Total</div>
-           <div class="total-price">$0</div>
+            <div class="login-signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+          </form>
         </div>
 
 
-        
-        <!--buy btn-->
-        <button type="button" class="buy-btn">Buy</button>
-         
+        <!-- Signup -->
+        <div class="form signup">
+          <form action="#">
+            <h2>Signup</h2>
+
+            <div class="input-box">
+              <input type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+              <input type="password" placeholder="Create password" required>
+            </div>
+            <div class="input-box">
+              <input type="password" placeholder="Confirm password" required>
+            </div>
+
+            <button class="button">Signup Now</button>
+
+            <div class="login-signup">Already have an account? <a href="#" id="login">Login</a></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!--cart-->
+  <div class="cart">
+    <h2 class="cart-title">Your Cart</h2>
+
+    <!--cart content-->
+    <div class="cart-box">
+    </div>
+
+    <!--total amount-->
+    <div class="total">
+      <div class="total-title">Total</div>
+      <div class="total-price">$0</div>
+    </div>
 
 
 
-        <!--close cart btn-->
-        <i class="fa-solid fa-xmark" id="cart-close"></i>
-       </div>
+    <!--buy btn-->
+    <button type="button" class="buy-btn">Buy</button>
+
+
+
+
+    <!--close cart btn-->
+    <i class="fa-solid fa-xmark" id="cart-close"></i>
+  </div>
 
 
 
 
   <!--shop-->
   <section class="shop book-container">
-      <div class="section-header">
-         <h2 class="section-title">Our Books</h2>
-         <!-- "View All" button -->
-         <a href="../book_database/book_database.xml" class="view-all-link">View All</a>
+    <div class="section-header">
+      <h2 class="section-title">Our Books</h2>
+      <!-- "View All" button -->
+      <a href="../book_database/book_database.xml" class="view-all-link">View All</a>
+    </div>
+
+
+    <!--content-->
+
+    <div class="books-box">
+
+      <!--books-->
+
+      <div class="shop-content">
+        <img src="../assets/book1.jpg" alt="" class="book-img">
+        <h2 class="book-title" id="details">LEIGH HOWARDS and the Ghosts of Simons</h2>
+        <p class="price" id="details">$66</p>
+        <h3 id="details">Book Summary</h3>
+        <h5 id="details">Orphaned, she goes to live with incredibly wealthy relatives she never knew she had.
+          Struggling to fit into her new world, she can't let go of her grief.
+          When the police tell her the investigation into her parents' murder has hit a brick wall,
+          she knows the only way she will ever know peace is to solve the mystery herself. With new family and friends,
+          which includes a ghost with multiple personality issues, Leigh risks everything to find her answers.</h5>
+        <button type="button" class="cart-btn" id="details">Add to Cart</button>
       </div>
-  
 
-     <!--content-->
-
-     <div class="books-box">
-
-     <!--books-->
-
-     <div class="shop-content">
-      <img src="../assets/book1.jpg" alt="" class="book-img">
-      <h2 class="book-title" id="details">LEIGH HOWARDS and the Ghosts of Simons</h2>
-      <p class="price" id="details">$66</p>
-      <h3 id="details">Book Summary</h3>
-      <h5 id="details">Orphaned, she goes to live with incredibly wealthy relatives she never knew she had.
-         Struggling to fit into her new world, she can't let go of her grief.
-         When the police tell her the investigation into her parents' murder has hit a brick wall,
-         she knows the only way she will ever know peace is to solve the mystery herself. With new family and friends,
-         which includes a ghost with multiple personality issues, Leigh risks everything to find her answers.</h5>
-      <button type="button" class="cart-btn" id="details">Add to Cart</button>
-     </div>
-
-     <div class="shop-content">
-      <img src="../assets/book2.jpg" alt="" class="book-img">
-      <h2 class="book-title" id="details">UNBROKEN BONDS OF BATTLE</h2>
-      <p class="price" id="details">$43</p>
-      <h3 id="details">Book Summary</h3>
-      <h5 id="details">In over a decade of working with veterans, Johnny Joey 
-         Jones has discovered the power of battle-forged friendships.
+      <div class="shop-content">
+        <img src="../assets/book2.jpg" alt="" class="book-img">
+        <h2 class="book-title" id="details">UNBROKEN BONDS OF BATTLE</h2>
+        <p class="price" id="details">$43</p>
+        <h3 id="details">Book Summary</h3>
+        <h5 id="details">In over a decade of working with veterans, Johnny Joey
+          Jones has discovered the power of battle-forged friendships.
           Suffering a life-changing injury while deployed in Afghanistan,
           he faced a daunting recovery. But coming home would have been much harder
           without the support of his brothers and sisters in arms.
-         In Unbroken Bonds of Battle, Joey tells the stories of those very warriors,
-         who for years have supported and inspired him on the battlefield and off.</h5>
-      <button type="button" class="cart-btn" id="details">Add to Cart</button>
-     </div>
+          In Unbroken Bonds of Battle, Joey tells the stories of those very warriors,
+          who for years have supported and inspired him on the battlefield and off.</h5>
+        <button type="button" class="cart-btn" id="details">Add to Cart</button>
+      </div>
 
-     <div class="shop-content">
-      <img src="../assets/book3.jpg" alt="" class="book-img">
-      <h2 class="book-title" id="details">THE 48 LAWS OF POWER</h2>
-      <p class="price" id="details">$53</p>
-      <h3 id="details">Book Summary</h3>
-      <h5 id="details">In the book that People magazine proclaimed “beguiling” and “fascinating,” 
-         Robert Greene and Joost Elffers have distilled three thousand years of the history of 
-         power into 48 essential laws by drawing from the philosophies of Machiavelli, Sun Tzu, 
-         and Carl Von Clausewitz and also from the lives of figures ranging from Henry Kissinger to P.T. Barnum.</h5>
-      <button type="button" class="cart-btn" id="details">Add to Cart</button>
-     </div>
+      <div class="shop-content">
+        <img src="../assets/book3.jpg" alt="" class="book-img">
+        <h2 class="book-title" id="details">THE 48 LAWS OF POWER</h2>
+        <p class="price" id="details">$53</p>
+        <h3 id="details">Book Summary</h3>
+        <h5 id="details">In the book that People magazine proclaimed “beguiling” and “fascinating,”
+          Robert Greene and Joost Elffers have distilled three thousand years of the history of
+          power into 48 essential laws by drawing from the philosophies of Machiavelli, Sun Tzu,
+          and Carl Von Clausewitz and also from the lives of figures ranging from Henry Kissinger to P.T. Barnum.</h5>
+        <button type="button" class="cart-btn" id="details">Add to Cart</button>
+      </div>
 
-     <div class="shop-content">
-      <img src="../assets/book4.jpg" alt="" class="book-img">
-      <h2 class="book-title" id="details">The Legend of Zelda™: Tears of the Kingdom</h2>
-      <p class="price" id="details">$45</p>
-      <h3 id="details">Book Summary</h3>
-      <h5 id="details">The Legend of Zelda: Tears of the Kingdom offers a vast world full of varied quests,
-         challenging puzzles, ferocious monsters, and unique sights to behold. Working closely with Nintendo®,
+      <div class="shop-content">
+        <img src="../assets/book4.jpg" alt="" class="book-img">
+        <h2 class="book-title" id="details">The Legend of Zelda™: Tears of the Kingdom</h2>
+        <p class="price" id="details">$45</p>
+        <h3 id="details">Book Summary</h3>
+        <h5 id="details">The Legend of Zelda: Tears of the Kingdom offers a vast world full of varied quests,
+          challenging puzzles, ferocious monsters, and unique sights to behold. Working closely with Nintendo®,
           we have created the authoritative, all-encompassing guide that this game so richly deserves.</h5>
-      <button type="button" class="cart-btn" id="details">Add to Cart</button>
-     </div>
+        <button type="button" class="cart-btn" id="details">Add to Cart</button>
+      </div>
 
-     <div class="shop-content">
-      <img src="../assets/book5.jpg" alt="" class="book-img">
-      <h2 class="book-title" id="details">IT ENDS WITH US</h2>
-      <p class="price" id="details">$24</p>
-      <h3 id="details">Book Summary</h3>
-      <h5 id="details">Lily hasn't always had it easy, but that's never stopped her from working hard for the life she wants.
-         She's come a long way from the small town where she grew up—she graduated from college, moved to Boston,
-         and started her own business. And when she feels a spark with a gorgeous neurosurgeon named Ryle Kincaid,
-         everything in Lily's life seems too good to be true.</h5>
-      <button type="button" class="cart-btn" id="details">Add to Cart</button>
-     </div>
+      <div class="shop-content">
+        <img src="../assets/book5.jpg" alt="" class="book-img">
+        <h2 class="book-title" id="details">IT ENDS WITH US</h2>
+        <p class="price" id="details">$24</p>
+        <h3 id="details">Book Summary</h3>
+        <h5 id="details">Lily hasn't always had it easy, but that's never stopped her from working hard for the life she
+          wants.
+          She's come a long way from the small town where she grew up—she graduated from college, moved to Boston,
+          and started her own business. And when she feels a spark with a gorgeous neurosurgeon named Ryle Kincaid,
+          everything in Lily's life seems too good to be true.</h5>
+        <button type="button" class="cart-btn" id="details">Add to Cart</button>
+      </div>
 
-     <div class="shop-content">
-      <img src="../assets/book6.jpg" alt="" class="book-img">
-      <h2 class="book-title" id="details">THE BODY KEEPS THE SCORE</h2>
-      <p class="price" id="details">$26</p>
-      <h3 id="details">Book Summary</h3>
-      <h5 id="details">Trauma is a fact of life.
-         Veterans and their families deal with the painful aftermath of combat;
-         one in five Americans has been molested; one in four grew up with alcoholics;
-         one in three couples have engaged in physical violence. Dr. Bessel van der Kolk, one of the world's
-         foremost experts on trauma, has spent over three decades working with survivors.</h5>
-      <button type="button" class="cart-btn" id="details">Add to Cart</button>
-     </div>
+      <div class="shop-content">
+        <img src="../assets/book6.jpg" alt="" class="book-img">
+        <h2 class="book-title" id="details">THE BODY KEEPS THE SCORE</h2>
+        <p class="price" id="details">$26</p>
+        <h3 id="details">Book Summary</h3>
+        <h5 id="details">Trauma is a fact of life.
+          Veterans and their families deal with the painful aftermath of combat;
+          one in five Americans has been molested; one in four grew up with alcoholics;
+          one in three couples have engaged in physical violence. Dr. Bessel van der Kolk, one of the world's
+          foremost experts on trauma, has spent over three decades working with survivors.</h5>
+        <button type="button" class="cart-btn" id="details">Add to Cart</button>
+      </div>
 
-     <div class="shop-content">
-      <img src="../assets/book7.jpg" alt="" class="book-img">
-      <h2 class="book-title" id="details">THE CREATIVE ACT A WAY OF BEING</h2>
-      <p class="price" id="details">$61</p>
-      <h3 id="details">Book Summary</h3>
-      <h5 id="details">The Creative Act is a beautiful and generous course of study that
-         illuminates the path of the artist as a road we all can follow.
-         It distills the wisdom gleaned from a lifetime's work into a luminous
-         reading experience that puts the power to create moments—and lifetimes—of exhilaration 
-         and transcendence within closer reach for all of us.</h5>
-      <button type="button" class="cart-btn" id="details">Add to Cart</button>
-     </div>
+      <div class="shop-content">
+        <img src="../assets/book7.jpg" alt="" class="book-img">
+        <h2 class="book-title" id="details">THE CREATIVE ACT A WAY OF BEING</h2>
+        <p class="price" id="details">$61</p>
+        <h3 id="details">Book Summary</h3>
+        <h5 id="details">The Creative Act is a beautiful and generous course of study that
+          illuminates the path of the artist as a road we all can follow.
+          It distills the wisdom gleaned from a lifetime's work into a luminous
+          reading experience that puts the power to create moments—and lifetimes—of exhilaration
+          and transcendence within closer reach for all of us.</h5>
+        <button type="button" class="cart-btn" id="details">Add to Cart</button>
+      </div>
 
-     <div class="shop-content">
-      <img src="../assets/book8.jpg" alt="" class="book-img">
-      <h2 class="book-title" id="details">THE WAGER</h2>
-      <p class="price" id="details">$36</p>
-      <h3 id="details">Book Summary</h3>
-      <h5 id="details">From the author of Killers of the Flower Moon,
-         a page-turning story of shipwreck, survival, and savagery,
-         culminating in a court martial that reveals a shocking truth.
-         The powerful narrative reveals the deeper meaning of the events on The Wager,
-         showing that it was not only the captain and crew who ended up on trial, but the very idea of empire.</h5>
-      <button type="button" class="cart-btn" id="details">Add to Cart</button>
-     </div>
+      <div class="shop-content">
+        <img src="../assets/book8.jpg" alt="" class="book-img">
+        <h2 class="book-title" id="details">THE WAGER</h2>
+        <p class="price" id="details">$36</p>
+        <h3 id="details">Book Summary</h3>
+        <h5 id="details">From the author of Killers of the Flower Moon,
+          a page-turning story of shipwreck, survival, and savagery,
+          culminating in a court martial that reveals a shocking truth.
+          The powerful narrative reveals the deeper meaning of the events on The Wager,
+          showing that it was not only the captain and crew who ended up on trial, but the very idea of empire.</h5>
+        <button type="button" class="cart-btn" id="details">Add to Cart</button>
+      </div>
 
-     <div class="shop-content">
-      <img src="../assets/book9.jpg" alt="" class="book-img">
-      <h2 class="book-title" id="details">STEVE JOBS</h2>
-      <p class="price" id="details">$999</p>
-      <h3 id="details">Book Summary</h3>
-      <h5 id="details">Isaacson's biography of Steve Jobs, based on extensive interviews with Jobs and those close to him,
-        offers a candid exploration of the tech innovator's life and character. Jobs, known for revolutionizing several
-        industries, permitted complete honesty and didn't censor content. The resulting narrative presents an unfiltered
-        look at his perfectionism, obsession, artistry, and control, traits that fundamentally shaped his groundbreaking products.</h5>
-      <button type="button" class="cart-btn" id="details">Add to Cart</button>
-     </div>
+      <div class="shop-content">
+        <img src="../assets/book9.jpg" alt="" class="book-img">
+        <h2 class="book-title" id="details">STEVE JOBS</h2>
+        <p class="price" id="details">$999</p>
+        <h3 id="details">Book Summary</h3>
+        <h5 id="details">Isaacson's biography of Steve Jobs, based on extensive interviews with Jobs and those close to
+          him,
+          offers a candid exploration of the tech innovator's life and character. Jobs, known for revolutionizing
+          several
+          industries, permitted complete honesty and didn't censor content. The resulting narrative presents an
+          unfiltered
+          look at his perfectionism, obsession, artistry, and control, traits that fundamentally shaped his
+          groundbreaking products.</h5>
+        <button type="button" class="cart-btn" id="details">Add to Cart</button>
+      </div>
 
-     </div>
+    </div>
 
   </section>
 
   <footer id="footer">
-   <h4 class="contact">
-   <p>Contact: <i class="fa-solid fa-phone"></i><a href="#"> +230-12345678</a></p>
-   <p>Address:<a href="#"> lorem ipsum dolor sit amet</a></p>
-   </h4>
-   
-   <div class="socials">
-     <a href="#" target="_blank"><i class="fa-brands fa-at"></i></a>
-     <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-     <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-     <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-   </div>
- 
-   <h5 style="text-align: center; font-weight: 100;"><i class="fa-regular fa-copyright"></i>2023 Copyright: Ukiyo&co</h5>
-   
- </footer>
+    <h4 class="contact">
+      <p>Contact: <i class="fa-solid fa-phone"></i><a href="#"> +230-12345678</a></p>
+      <p>Address:<a href="#"> lorem ipsum dolor sit amet</a></p>
+    </h4>
 
-<!--js-->
- 
-<script src="../book/book.js"></script>
-<script src="../login.js"></script>
+    <div class="socials">
+      <a href="#" target="_blank"><i class="fa-brands fa-at"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+    <h5 style="text-align: center; font-weight: 100;"><i class="fa-regular fa-copyright"></i>2023 Copyright: Ukiyo&co
+    </h5>
+
+  </footer>
+
+  <!--js-->
+
+  <script src="../book/book.js"></script>
+  <script src="../login.js"></script>
 
 </body>
+
 </html>
