@@ -308,12 +308,12 @@ a {
 
     /* Style all rows (tr) with the same background color */
     .bookstore-table tr {
-      background-color: #e1d7cc;
+      background-color: #ded6ce;
     }
 
     /* Style the holiday row */
     .bookstore-table tr.holiday-row td {
-      background-color: #ceb9a4;
+      background-color: #d3c2b1;
       text-align: center;
     }
 
@@ -395,7 +395,7 @@ body {
 }
 
 .testimonial {
-  background-color: #d5c1ae;
+  background-color: #ded6ce;
   border-radius: 15px;
   padding: 20px;
   
