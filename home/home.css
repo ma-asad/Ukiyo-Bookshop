@@ -393,16 +393,19 @@ margin-bottom: 20px;
 
 
 /* CSS Styles for the carousel and testimonials */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
 
 .testimonial-carousel {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
   text-align: center;
   max-width: 800px; /* Increased the max-width of the carousel */
   margin: 100px auto;
   color:#333;
+}
+
+.testimonial-carousel h2{
+  margin-bottom: 20px;
+  color:#494242;
 }
 
 .testimonial {
