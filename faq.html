@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,12 @@
     <title>bookshop</title>
     <link rel="stylesheet" href="../home/home.css">
     <!-- icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="https://kit.fontawesome.com/659625d5a6.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -19,7 +23,8 @@
                 <li class="links">
                     <a href="../home/home.html" class="navlink">Home</a>
                     <a href="../book/book.html" class="navlink">Books</a>
-                    <a href="../announcement/announcement.html" class="navlink"><i class="fa-regular fa-bell fa-lg"></i></a>
+                    <a href="../announcement/announcement.html" class="navlink"><i
+                            class="fa-regular fa-bell fa-lg"></i></a>
                     <button class="button" id="open-form">Login</button>
                 </li>
             </ul>
@@ -31,47 +36,47 @@
         <section>
             <div class="container">
                 <i class="fa-solid fa-xmark close-form"></i>
-          
+
                 <!-- Login -->
                 <div class="form login">
-                  <form action="#">
-                    <h2>Login</h2>
-          
-                    <div class="input-box">
-                      <input type="email" placeholder="Enter your email" required />
-                    </div>
-                    <div class="input-box">
-                      <input type="password" placeholder="Enter your password" required />
-                    </div>
-          
-                    <button class="button" id="open-form">Login Now</button>
-          
-                    <div class="login-signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
-                  </form>
+                    <form action="#">
+                        <h2>Login</h2>
+
+                        <div class="input-box">
+                            <input type="email" placeholder="Enter your email" required />
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="Enter your password" required />
+                        </div>
+
+                        <button class="button" id="open-form">Login Now</button>
+
+                        <div class="login-signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+                    </form>
                 </div>
-                
-          
+
+
                 <!-- Signup -->
                 <div class="form signup">
-                  <form action="#">
-                    <h2>Signup</h2>
-          
-                    <div class="input-box">
-                      <input type="email" placeholder="Enter your email" required />
-                    </div>
-                    <div class="input-box">
-                      <input type="password" placeholder="Create password" required />
-                    </div>
-                    <div class="input-box">
-                      <input type="password" placeholder="Confirm password" required />
-                    </div>
-          
-                    <button class="button">Signup Now</button>
-          
-                    <div class="login-signup">Already have an account? <a href="#" id="login">Login</a></div>
-                  </form>
+                    <form action="#">
+                        <h2>Signup</h2>
+
+                        <div class="input-box">
+                            <input type="email" placeholder="Enter your email" required />
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="Create password" required />
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="Confirm password" required />
+                        </div>
+
+                        <button class="button">Signup Now</button>
+
+                        <div class="login-signup">Already have an account? <a href="#" id="login">Login</a></div>
+                    </form>
                 </div>
-              </div>
+            </div>
         </section>
 
         <section>
@@ -105,14 +110,15 @@
                     <div class="question">
                         <h3>Are e-books and audiobooks available in your store?</h3>
                         <ul class="answer">
-                            <li>Currently, we focus on physical books in-store. However, we have plans to introduce e-books and audiobooks in the near future.</li>
+                            <li>Currently, we focus on physical books in-store. However, we have plans to introduce
+                                e-books and audiobooks in the near future.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        
-        
+
+
 
         <footer id="footer">
             <h4 class="contact">
@@ -125,7 +131,8 @@
                 <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
-            <h5 style="text-align: center; font-weight: 100;"><i class="fa-regular fa-copyright"></i>2023 Copyright: Ukiyo&co</h5>
+            <h5 style="text-align: center; font-weight: 100;"><i class="fa-regular fa-copyright"></i>2023 Copyright:
+                Ukiyo&co</h5>
         </footer>
     </div>
 
@@ -139,7 +146,7 @@
             question.addEventListener('click', () => {
                 // Toggle the "active" class on the clicked question element
                 question.classList.toggle('active');
-                 // Select the paragraph element within the clicked question element (represents the content to be shown/hidden)
+                // Select the paragraph element within the clicked question element (represents the content to be shown/hidden)
                 const answer = question.querySelector('p');
                 // If the question element has the "active" class (accordion section is expanded),
                 // set the display property of the content paragraph to 'block' (show the content)
@@ -150,4 +157,5 @@
         });
     </script>
 </body>
+
 </html>

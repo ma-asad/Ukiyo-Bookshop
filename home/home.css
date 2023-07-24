@@ -6,14 +6,14 @@
 
 
 /* Global styles for the body */
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    min-height: 100vh;
-    min-width: 100%;
-    background-color: #ebe9df;
-    display: flex;
-    flex-direction: column;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: #ebe9df;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -22,59 +22,63 @@ a {
 
 /* Styles for the header section */
 .header {
-    background-color: #b8978c;
-    position: relative;
-    height: 60px;
-    width: 100%;
-    z-index: 100;
-    padding: 0 20px;
-  }
+  background-color: #b8978c;
+  position: relative;
+  height: 60px;
+  width: 100%;
+  z-index: 100;
+  padding: 0 20px;
+}
 
-  .navbar{
-    min-width: 100%;
-    background-color: #b8978c;
-    position: relative;
-    height: 60px;
-    padding: 0 20px;
-    
-  }
-  .navbar, .links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.navbar {
+  min-width: 100%;
+  background-color: #b8978c;
+  position: relative;
+  height: 60px;
+  padding: 0 20px;
 
-  .logo, .navlink, .button {
-    color: #333;
-  }
+}
 
-  .logo a{
-    margin-right: auto;
-    font-size: 25px;
-    color: #333;
-  }
+.navbar,
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .links {
-    column-gap: 25px;
-  }
+.logo,
+.navlink,
+.button {
+  color: #333;
+}
 
-  .navlink:hover {
-    color: #ebe9df;
-  }
+.logo a {
+  margin-right: auto;
+  font-size: 25px;
+  color: #333;
+}
+
+.links {
+  column-gap: 25px;
+}
+
+.navlink:hover {
+  color: #ebe9df;
+}
 
 /* Style for the login button in the header */
-  .header .button {
-    padding: 6px 24px;
-    margin-left: 20px;
-    border: 2px solid #333;
-    background: transparent;
-    border-radius: 20px;
-    cursor: pointer;
-  }
+.header .button {
+  padding: 6px 24px;
+  margin-left: 20px;
+  border: 2px solid #333;
+  background: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
 
-  .header .button:hover {
-    color: #ebe9df;
-  }
+.header .button:hover {
+  color: #ebe9df;
+}
 
 
 .button:active {
@@ -89,21 +93,21 @@ a {
   margin: auto;
 }
 
-.content h2{
+.content h2 {
   color: #494242;
   margin-top: 40px;
 }
 
-.content p{
+.content p {
   color: #494242;
   margin-top: 20px;
   margin-bottom: 5em;
-  text-align:center;
+  text-align: center;
 }
 
 
 /*footer*/
-.contact p a{
+.contact p a {
   line-height: 0.5px;
   color: #494242;
 }
@@ -112,7 +116,7 @@ a {
   text-decoration: underline;
   text-align: left;
   margin: 40px;
-  
+
 }
 
 .contact a {
@@ -141,7 +145,7 @@ a {
 #footer {
   position: relative;
   font-family: sans-serif;
-  font-size:small;
+  font-size: small;
   letter-spacing: 3px;
   padding: 30px 45px 10px 45px;
   color: #504f4f;
@@ -156,7 +160,7 @@ a {
 
 /*login*/
 
-.container{
+.container {
   padding: 25px;
   border-radius: 12px;
   max-width: 340px;
@@ -168,7 +172,7 @@ a {
   background-color: #dbdbd5;
   box-shadow: rgba(0, 0, 0, 0.1);
   color: #333;
-  opacity: 0 ;
+  opacity: 0;
   pointer-events: none;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease-out;
@@ -177,13 +181,14 @@ a {
 .container.active .signup {
   display: block;
 }
+
 .container.active .login {
   display: none;
 }
 
 
 /* Set the opacity of the login/signup container to 1 when it is shown */
-.home.show .container{
+.home.show .container {
   opacity: 1;
   pointer-events: auto;
 }
@@ -194,7 +199,7 @@ a {
   position: absolute;
   height: 100vh;
   width: 100%;
-  background:rgba(123, 119, 119, 0.6);
+  background: rgba(123, 119, 119, 0.6);
   z-index: 100;
   opacity: 0;
   pointer-events: none;
@@ -207,11 +212,11 @@ a {
   pointer-events: auto;
 }
 
-.signup{
+.signup {
   display: none;
 }
 
-.close-form{
+.close-form {
   position: absolute;
   top: 15px;
   right: 20px;
@@ -221,7 +226,7 @@ a {
   cursor: pointer;
 }
 
-.container h2{
+.container h2 {
   font-size: 22px;
   font-weight: 600;
   margin-top: 10px;
@@ -230,7 +235,7 @@ a {
 }
 
 /* Styles for the input boxes in the login/signup form */
-.input-box{
+.input-box {
   background-color: #cdcdb9;
   position: relative;
   margin-top: 30px;
@@ -238,7 +243,7 @@ a {
   height: 40px;
 }
 
-.input-box input{
+.input-box input {
   height: 100%;
   width: 100%;
   border: none;
@@ -247,18 +252,18 @@ a {
   transition: all 0.2 ease;
 }
 
-.container a{
+.container a {
   color: #b08989;
   font-size: 11px;
 }
 
-.container a:hover{
+.container a:hover {
   text-decoration: underline;
 }
 
 /* Styles for the login/signup buttons */
 .container .button {
-  background:#b8978c;
+  background: #b8978c;
   margin-top: 30px;
   width: 100%;
   padding: 10px 0;
@@ -275,97 +280,99 @@ a {
 
 /* Table */
 
-    /* Style the table container */
-    .opening-time {
-      width: 40%;
-      margin: 2em auto; 
-    }
+/* Style the table container */
+.opening-time {
+  width: 40%;
+  margin: 2em auto;
+}
 
-    /* Style the table */
-    .bookstore-table {
-      width: 100%;
-      border-collapse: collapse;
-      border-radius: 16px;
-      color:#333;
-      overflow: hidden;
-      box-shadow: 0 0 10px rgb(130, 127, 127); /* Add a box shadow for an outline effect*/
-    }
+/* Style the table */
+.bookstore-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 16px;
+  color: #333;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(130, 127, 127);
+  /* Add a box shadow for an outline effect*/
+}
 
-    /* Style table cells (td) */
-    .bookstore-table td {
-      padding: 10px; 
-      text-align: left;
-      border: 1px solid #a9998a;
-      height: 50px;
-    }
+/* Style table cells (td) */
+.bookstore-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #a9998a;
+  height: 50px;
+}
 
-    /* Style the table header (th) */
-    .bookstore-table th {
-      background-color: #9e9082;
-      border: 1px solid #a9998a;
-      height: 50px;
-    }
+/* Style the table header (th) */
+.bookstore-table th {
+  background-color: #9e9082;
+  border: 1px solid #a9998a;
+  height: 50px;
+}
 
-    /* Style all rows (tr) with the same background color */
-    .bookstore-table tr {
-      background-color: #ded6ce;
-    }
+/* Style all rows (tr) with the same background color */
+.bookstore-table tr {
+  background-color: #ded6ce;
+}
 
-    /* Style the holiday row */
-    .bookstore-table tr.holiday-row td {
-      background-color: #d3c2b1;
-      text-align: center;
-    }
+/* Style the holiday row */
+.bookstore-table tr.holiday-row td {
+  background-color: #d3c2b1;
+  text-align: center;
+}
 
 
 /* Table Ends*/
 
 /* FAQs */
 .faqs {
-max-width: 800px;
-margin: auto; /* Add this to center the .faqs div */
-padding: 20px;
-text-align: left;
-box-shadow: rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+  /* Add this to center the .faqs div */
+  padding: 20px;
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-text-align: center;
+  text-align: center;
 }
 
 /* CSS for Accordion */
 .accordion {
-border: 1px solid #ccc;
-border-radius: 5px;
-overflow: hidden;
-margin-top: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 40px;
 }
 
 .accordion .question:last-child {
-border-bottom: none;
+  border-bottom: none;
 }
 
 .accordion .question p {
-margin: 0;
-font-size: 16px;
-display: none;
-padding: 10px 0;
+  margin: 0;
+  font-size: 16px;
+  display: none;
+  padding: 10px 0;
 }
 
 .accordion .question.active {
-background-color: #cebebe67;
+  background-color: #cebebe67;
 }
 
 .accordion .question:hover {
-background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .accordion .question {
-background-color: #b69e96;
-border-bottom: 15px solid #ccc;
-padding: 20px;
-cursor: pointer;
-transition: background-color 0.3s ease;
+  background-color: #b69e96;
+  border-bottom: 15px solid #ccc;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .accordion .question h3 {
@@ -381,14 +388,16 @@ transition: background-color 0.3s ease;
 
 .accordion .question .answer {
   display: none;
-  margin: 0; /* Remove default margin to avoid extra space */
+  margin: 0;
+  /* Remove default margin to avoid extra space */
 }
 
 .accordion .question .answer li {
-/* Decrease the space between the bullet point and the text */
-list-style: inside; 
-padding-left: 10px; /* Adjust this value as needed */
-margin-bottom: 20px;
+  /* Decrease the space between the bullet point and the text */
+  list-style: inside;
+  padding-left: 10px;
+  /* Adjust this value as needed */
+  margin-bottom: 20px;
 }
 
 
@@ -398,30 +407,34 @@ margin-bottom: 20px;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   text-align: center;
-  max-width: 800px; /* Increased the max-width of the carousel */
+  max-width: 800px;
+  /* Increased the max-width of the carousel */
   margin: 100px auto;
-  color:#333;
+  color: #333;
 }
 
-.testimonial-carousel h2{
+.testimonial-carousel h2 {
   margin-bottom: 20px;
-  color:#494242;
+  color: #494242;
 }
 
 .testimonial {
   background-color: #ded6ce;
   border-radius: 15px;
   padding: 20px;
-  
+
   margin-bottom: 20px;
-  width: 300px; /* Fixed width for each carousel item */
-  height: 250px; /* Fixed height for each carousel item */
-  margin-right: 20px; 
+  width: 300px;
+  /* Fixed width for each carousel item */
+  height: 250px;
+  /* Fixed height for each carousel item */
+  margin-right: 20px;
 }
 
 .testimonial p {
   font-style: italic;
-  font-size: 18px; /* Increased the font size for larger text */
+  font-size: 18px;
+  /* Increased the font size for larger text */
   color: #333333;
   margin: 0;
 }
@@ -430,7 +443,7 @@ margin-bottom: 20px;
 .testimonial ul {
   list-style: inside;
   font-style: italic;
-  margin-top:10px;
+  margin-top: 10px;
   font-size: 18px;
   color: #333333;
 }
@@ -438,7 +451,7 @@ margin-bottom: 20px;
 .testimonial ol {
 
   font-style: italic;
-  margin-top:10px;
+  margin-top: 10px;
   font-size: 18px;
   color: #333333;
   padding-left: 30px;
@@ -457,8 +470,10 @@ margin-bottom: 20px;
 .carousel-inner {
   display: flex;
   transition: transform 0.3s ease;
-  width: fit-content; /* Making the carousel container shrink to the width of its contents */
-  margin: 0 auto; /* Centering the carousel container */
+  width: fit-content;
+  /* Making the carousel container shrink to the width of its contents */
+  margin: 0 auto;
+  /* Centering the carousel container */
 }
 
 /* Navigation arrows */
