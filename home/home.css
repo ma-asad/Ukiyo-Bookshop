@@ -88,11 +88,19 @@ a {
   margin: auto;
 }
 
-.content h2, p{
+.content h2{
   color: #494242;
   margin-top: 40px;
-  
 }
+
+.content p{
+  color: #494242;
+  margin-top: 20px;
+  margin-bottom: 5em;
+  text-align:center;
+  text-justify: inter-word;
+}
+
 
 /*footer*/
 .contact p a{
@@ -100,10 +108,14 @@ a {
   color: #494242;
 }
 
+.contact p {
+  text-decoration: underline;
+  text-align: left;
+}
+
 .contact a {
   text-decoration: underline;
 }
-
 
 .socials {
   gap: 30px;
@@ -128,7 +140,7 @@ a {
   font-family: sans-serif;
   font-size:small;
   letter-spacing: 3px;
-  padding: 45px;
+  padding: 30px 45px 10px 45px;
   color: #504f4f;
   background-color: #d8d3d1;
   top: 15em;
@@ -429,7 +441,7 @@ body {
 /* Navigation arrows */
 .arrow {
   position: absolute;
-  top: 60%;
+  top: 55%;
   cursor: pointer;
   font-size: 24px;
   padding: 5px;
