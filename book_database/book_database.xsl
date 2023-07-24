@@ -19,6 +19,7 @@
                 <a href="../home/home.html" class="navlink">Home</a>
                 <a href="../book/book.html" class="navlink">Books</a>
                 <a href="../faq.html"  class="navlink">FAQs</a>
+              <a href="../announcement/announcement.html" class="navlink"><i class="fa-regular fa-bell fa-lg"></i></a>
               </li>
             </ul>
           </nav>
