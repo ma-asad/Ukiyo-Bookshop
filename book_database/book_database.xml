@@ -3,45 +3,154 @@
 <!DOCTYPE books SYSTEM "book_database.dtd">
 <books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="../book_database/book_database.dtd">
-  <book id="1" genre="Fantasy">
-    <title>Book 1</title>
-    <author>Author 1</author>
+  <book id="1" genre="Mystery">
+    <title>Leigh Howard and the Ghosts of Simmons</title>
+    <author>Pierce Manor</author>
     <year>2023</year>
-    <ibsn>123456789</ibsn>
+    <ibsn>456789012</ibsn>
     <price>66</price>
     <stock>In Stock</stock>
-    <sold>20</sold>
-    <notes>A delightful fantasy book.</notes>
+    <sold>10</sold>
+    <notes>A riveting mystery with ghosts.</notes>
   </book>
-  <book id="2" genre="Sci-Fi">
-    <title>Book 2</title>
-    <author>Author 2</author>
-    <year>2022</year>
-    <ibsn>234567890</ibsn>
+  <book id="2" genre="War">
+    <title>Unbroken Bonds of Battle</title>
+    <author>Johny Joey Jones</author>
+    <year>2023</year>
+    <ibsn>567890123</ibsn>
     <price>43</price>
     <stock>In Stock</stock>
-    <sold>30</sold>
-    <notes>An epic sci-fi adventure.</notes>
+    <sold>15</sold>
+    <notes>A gripping war story of resilience.</notes>
   </book>
-  <book id="3" genre="Mystery">
-    <title>Book 3</title>
-    <author>Author 3</author>
-    <year>2021</year>
-    <ibsn>345678901</ibsn>
+  <book id="3" genre="Self-Help">
+    <title>The 48 Laws of Power</title>
+    <author>Robert Greene</author>
+    <year>1998</year>
+    <ibsn>678901234</ibsn>
     <price>53</price>
     <stock>In Stock</stock>
-    <sold>40</sold>
-    <notes>A thrilling mystery novel.</notes>
+    <sold>500</sold>
+    <notes>A definitive guide to manipulation and power.</notes>
   </book>
-  <!-- More book elements... -->
-  <book id="15" genre="History">
-    <title>Book 15</title>
-    <author>Author 15</author>
-    <year>2009</year>
-    <ibsn>999999999</ibsn>
+  <book id="4" genre="Fantasy">
+    <title>The Legend of Zelda™: Tears of the Kingdom</title>
+    <author>Piggyback</author>
+    <year>2023</year>
+    <ibsn>789012345</ibsn>
+    <price>90</price>
+    <stock>In Stock</stock>
+    <sold>18</sold>
+    <notes>An exciting adventure in the Zelda universe.</notes>
+  </book>
+  <book id="5" genre="Romance">
+    <title>It Ends with Us</title>
+    <author>Colleen Hoover</author>
+    <year>2016</year>
+    <ibsn>890123456</ibsn>
+    <price>15</price>
+    <stock>In Stock</stock>
+    <sold>500</sold>
+    <notes>A heart-wrenching love story.</notes>
+  </book>
+  <book id="6" genre="Psychology">
+    <title>The Body Keeps the Score</title>
+    <author>Bessel van der Kolk</author>
+    <year>2014</year>
+    <ibsn>901234567</ibsn>
+    <price>20</price>
+    <stock>In Stock</stock>
+    <sold>400</sold>
+    <notes>A thought-provoking book on trauma and healing.</notes>
+  </book>
+    <book id="7" genre="Self-Help">
+    <title>The Creative Act A Way of Being</title>
+    <author>Rick Rubin</author>
+    <year>2021</year>
+    <ibsn>123780045</ibsn>
+    <price>25</price>
+    <stock>In Stock</stock>
+    <sold>45</sold>
+    <notes>A guide to unlocking creativity and fulfillment.</notes>
+  </book>
+  <book id="8" genre="Fantasy">
+    <title>The Wager</title>
+    <author>David Grann</author>
+    <year>2022</year>
+    <ibsn>123784567</ibsn>
+    <price>30</price>
+    <stock>In Stock</stock>
+    <sold>60</sold>
+    <notes>A compelling fantasy novel with twists and turns.</notes>
+  </book>
+  <book id="9" genre="Biography">
+    <title>Steve Jobs</title>
+    <author>Walter Isaacson</author>
+    <year>2011</year>
+    <ibsn>123784560</ibsn>
+    <price>35</price>
+    <stock>In Stock</stock>
+    <sold>700</sold>
+    <notes>The definitive biography of Apple co-founder Steve Jobs.</notes>
+  </book>
+  <book id="10" genre="Biography">
+    <title>Benjamin Franklin: An American Life</title>
+    <author>Walter Isaacson</author>
+    <year>2003</year>
+    <ibsn>123487907</ibsn>
+    <price>20</price>
+    <stock>Out of Stock</stock>
+    <sold>500</sold>
+    <notes>A detailed biography of Benjamin Franklin, a key figure in the American Enlightenment.</notes>
+  </book>
+  <book id="11" genre="Science Fiction">
+    <title>The Time Machine</title>
+    <author>H.G. Wells</author>
+    <year>1895</year>
+    <ibsn>123456098</ibsn>
+    <price>12</price>
+    <stock>Out of Stock</stock>
+    <sold>1500</sold>
+    <notes>A classic of the science fiction genre, exploring the concept of time travel.</notes>
+  </book>
+  <book id="12" genre="Biography">
+    <title>The Diary of a Young Girl</title>
+    <author>Anne Frank</author>
+    <year>1947</year>
+    <ibsn>123456789</ibsn>
     <price>15</price>
     <stock>Out of Stock</stock>
-    <sold>150</sold>
-    <notes>A comprehensive history book.</notes>
+    <sold>3000</sold>
+    <notes>Anne Frank's diary, a poignant insight into the Holocaust.</notes>
+  </book>
+  <book id="13" genre="Science Fiction">
+    <title>Le Petit Prince</title>
+    <author>Antoine de Saint-Exupéry</author>
+    <year>1943</year>
+    <ibsn>123456987</ibsn>
+    <price>10</price>
+    <stock>Out of Stock</stock>
+    <sold>2000</sold>
+    <notes>A beloved French classic exploring love, friendship and loneliness.</notes>
+  </book>
+  <book id="14" genre="Biography">
+    <title>The Story of My Experiments with Truth</title>
+    <author>Mahatma Gandhi</author>
+    <year>1927</year>
+    <ibsn>987654321</ibsn>
+    <price>18</price>
+    <stock>Out of Stock</stock>
+    <sold>900</sold>
+    <notes>Mahatma Gandhi's autobiography, an influential work in the Indian independence movement.</notes>
+  </book>
+  <book id="15" genre="Science Fiction">
+    <title>1984</title>
+    <author>George Orwell</author>
+    <year>1949</year>
+    <ibsn>987654320</ibsn>
+    <price>25</price>
+    <stock>Out of Stock</stock>
+    <sold>1000</sold>
+    <notes>A dystopian novel that discusses the dangers of totalitarianism.</notes>
   </book>
 </books>

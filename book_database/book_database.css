@@ -26,6 +26,7 @@ body {
     margin-top: 20px;
     border-collapse: collapse;
     border-radius: 16px;
+    margin-bottom: 50px;
     color:#333;
     overflow: hidden;
     box-shadow: 0 0 10px rgb(130, 127, 127); /* Add a box shadow for an outline effect*/
@@ -149,7 +150,7 @@ body {
 
 
 #footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   font-family: sans-serif;
   font-size: small;
