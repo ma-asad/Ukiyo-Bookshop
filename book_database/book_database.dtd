@@ -1,12 +1,35 @@
+<!-- The root element is "books" which contains one or more "book" elements -->
 <!ELEMENT books (book+)>
+
+<!-- Each "book" element consists of "title", "author", "year", "ibsn", "price", "stock", "sold", and optionally "notes" elements -->
 <!ELEMENT book (title, author, year, ibsn, price, stock, sold, notes?)>
+
+<!-- "title" contains parsed character data -->
 <!ELEMENT title (#PCDATA)>
+
+<!-- "author" contains parsed character data -->
 <!ELEMENT author (#PCDATA)>
+
+<!-- "year" contains parsed character data -->
 <!ELEMENT year (#PCDATA)>
+
+<!-- "ibsn" contains parsed character data -->
 <!ELEMENT ibsn (#PCDATA)>
+
+<!-- "price" contains parsed character data -->
 <!ELEMENT price (#PCDATA)>
+
+<!-- "stock" contains parsed character data --> 
 <!ELEMENT stock (#PCDATA)>
+
+<!-- "sold" contains parsed character data -->
 <!ELEMENT sold (#PCDATA)>
+
+<!-- "notes" element is declared as empty -->
 <!ELEMENT notes EMPTY>
+
+<!-- "book" element has an attribute "id" which is required and of type ID (should be unique across the XML document) -->
 <!ATTLIST book id ID #REQUIRED>
+
+<!-- "book" element has an attribute "lang" of type NMTOKEN. It defaults to "en" if not specified -->
 <!ATTLIST book lang NMTOKEN "en">

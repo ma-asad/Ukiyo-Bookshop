@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Associates an XSLT stylesheet with the XML document. -->
 <?xml-stylesheet type="text/xsl" href="../book_database/book_database.xsl"?>
+
+<!-- This DOCTYPE declaration references a DTD file named "book_database.dtd". "SYSTEM" keyword indicates that the DTD file is located at the specified system path -->
 <!DOCTYPE books SYSTEM "book_database.dtd">
+
+<!-- Includes the declaration of the "xsi" namespace which is used for XML Schema instance -->
+<!-- xsi:noNamespaceSchemaLocation attribute points to the location of the XML Schema file that is used for validation -->
 <books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="../book_database/book_database.dtd">
+
   <book id="1" genre="Mystery">
     <title>Leigh Howard and the Ghosts of Simmons</title>
     <author>Pierce Manor</author>
