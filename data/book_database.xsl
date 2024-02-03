@@ -7,7 +7,7 @@
   
     <html>
       <head>
-        <link rel="stylesheet" type="text/css" href="../book_database/book_database.css"/>
+        <link rel="stylesheet" type="text/css" href="../styles/book_database.css"/>
         
         <!-- icons -->
         <script src="https://kit.fontawesome.com/659625d5a6.js" crossorigin="anonymous"></script>
@@ -16,14 +16,14 @@
         <!-- navigation bar -->
         <header class="header">
           <nav class="navbar">
-            <div class="logo"><a href="../home/home.html">U K I Y O</a></div>
+            <div class="logo"><a href="../index.html">U K I Y O</a></div>
             <!-- Navigation links -->
             <ul>
               <li class="links">
-                <a href="../home/home.html" class="navlink">Home</a>
-                <a href="../book/book.html" class="navlink">Books</a>
-                <a href="../faq.html"  class="navlink">FAQs</a>
-                <a href="../announcement/announcement.html" class="navlink"><i class="fa-regular fa-bell fa-lg"></i></a>
+                <a href="../index.html" class="navlink">Home</a>
+                <a href="../pages/book.html" class="navlink">Books</a>
+                <a href="../pages/faq.html"  class="navlink">FAQs</a>
+                <a href="../pages/announcement.html" class="navlink"><i class="fa-regular fa-bell fa-lg"></i></a>
               </li>
             </ul>
           </nav>
